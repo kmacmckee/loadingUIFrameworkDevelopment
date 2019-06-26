@@ -10,17 +10,20 @@ import UIKit
 
 open class LoadingViewController: UIViewController {
     
-    open func displayLoadingAnimation(frame: CGRect) {
-        let animatedView = IndeterminateLoadingView.init(frame: frame)
-        animatedView.alpha = 0
-        view.addSubview(animatedView)
-        animatedView.startAnimating()
+    private var animationView = IndeterminateLoadingView()
+    
+
+    
+    open func animate() {
+        view.addSubview(animationView)
+        animationView.startAnimating()
         sleep(5)
-        animatedView.stopAnimating()
-        animatedView.removeFromSuperview()
-        
+        animationView.stopAnimating()
     }
     
+    open func stopAnimation() {
+        animationView.stopAnimating()
+    }
     
 
 

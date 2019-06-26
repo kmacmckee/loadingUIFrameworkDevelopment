@@ -16,7 +16,7 @@ class LoadingUIViewController: LoadingViewController {
     }
     
     @IBAction func buttonTapped(_ sender: Any) {
-        displayLoadingAnimation(frame: self.view.frame)
+        animate()
     }
     
     
