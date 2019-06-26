@@ -10,8 +10,9 @@
 		C46750AD22C3F22300678FCC /* LoadingUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46750A322C3F22300678FCC /* LoadingUI.framework */; };
 		C46750B222C3F22300678FCC /* LoadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46750B122C3F22300678FCC /* LoadingUITests.swift */; };
 		C46750B422C3F22300678FCC /* LoadingUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C46750A622C3F22300678FCC /* LoadingUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C46750F922C3F33400678FCC /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46750F822C3F33400678FCC /* LoadingViewController.swift */; };
 		C46750FA22C3F36000678FCC /* LoadingUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46750A322C3F22300678FCC /* LoadingUI.framework */; };
+		C467510322C3F9C800678FCC /* IndeterminateLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467510222C3F9C800678FCC /* IndeterminateLoadingView.swift */; };
+		C467510522C3FAB300678FCC /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467510422C3FAB300678FCC /* LoadingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,8 @@
 		C46750AC22C3F22300678FCC /* LoadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46750B122C3F22300678FCC /* LoadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingUITests.swift; sourceTree = "<group>"; };
 		C46750B322C3F22300678FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C46750F822C3F33400678FCC /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		C467510222C3F9C800678FCC /* IndeterminateLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndeterminateLoadingView.swift; sourceTree = "<group>"; };
+		C467510422C3FAB300678FCC /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				C46750A622C3F22300678FCC /* LoadingUI.h */,
-				C46750F822C3F33400678FCC /* LoadingViewController.swift */,
+				C467510422C3FAB300678FCC /* LoadingViewController.swift */,
+				C467510222C3F9C800678FCC /* IndeterminateLoadingView.swift */,
 				C46750A722C3F22300678FCC /* Info.plist */,
 			);
 			path = LoadingUI;
@@ -200,7 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C46750F922C3F33400678FCC /* LoadingViewController.swift in Sources */,
+				C467510322C3F9C800678FCC /* IndeterminateLoadingView.swift in Sources */,
+				C467510522C3FAB300678FCC /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,13 +8,19 @@
 
 import UIKit
 
-public class LoadingViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+open class LoadingViewController: UIViewController {
+    
+    open func displayLoadingAnimation(frame: CGRect) {
+        let animatedView = IndeterminateLoadingView.init(frame: frame)
+        animatedView.alpha = 0
+        view.addSubview(animatedView)
+        animatedView.startAnimating()
+        sleep(5)
+        animatedView.stopAnimating()
+        animatedView.removeFromSuperview()
+        
     }
+    
     
 
 

@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C46750CA22C3F24A00678FCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46750C922C3F24A00678FCC /* AppDelegate.swift */; };
-		C46750CC22C3F24A00678FCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46750CB22C3F24A00678FCC /* ViewController.swift */; };
 		C46750CF22C3F24A00678FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46750CD22C3F24A00678FCC /* Main.storyboard */; };
 		C46750D122C3F24A00678FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46750D022C3F24A00678FCC /* Assets.xcassets */; };
 		C46750D422C3F24A00678FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46750D222C3F24A00678FCC /* LaunchScreen.storyboard */; };
 		C46750DF22C3F24A00678FCC /* LoadingUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46750DE22C3F24A00678FCC /* LoadingUITestTests.swift */; };
 		C46750F322C3F2A200678FCC /* LoadingUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46750F022C3F29500678FCC /* LoadingUI.framework */; };
 		C46750F422C3F2A200678FCC /* LoadingUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C46750F022C3F29500678FCC /* LoadingUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C467510122C3F79400678FCC /* LoadingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467510022C3F79400678FCC /* LoadingUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,6 @@
 /* Begin PBXFileReference section */
 		C46750C622C3F24A00678FCC /* LoadingUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46750C922C3F24A00678FCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C46750CB22C3F24A00678FCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C46750CE22C3F24A00678FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C46750D022C3F24A00678FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46750D322C3F24A00678FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		C46750DE22C3F24A00678FCC /* LoadingUITestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingUITestTests.swift; sourceTree = "<group>"; };
 		C46750E022C3F24A00678FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C46750EA22C3F29500678FCC /* LoadingUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoadingUI.xcodeproj; path = ../../LoadingUI/LoadingUI.xcodeproj; sourceTree = "<group>"; };
+		C467510022C3F79400678FCC /* LoadingUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				C46750C922C3F24A00678FCC /* AppDelegate.swift */,
-				C46750CB22C3F24A00678FCC /* ViewController.swift */,
+				C467510022C3F79400678FCC /* LoadingUIViewController.swift */,
 				C46750CD22C3F24A00678FCC /* Main.storyboard */,
 				C46750D022C3F24A00678FCC /* Assets.xcassets */,
 				C46750D222C3F24A00678FCC /* LaunchScreen.storyboard */,
@@ -279,8 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C46750CC22C3F24A00678FCC /* ViewController.swift in Sources */,
 				C46750CA22C3F24A00678FCC /* AppDelegate.swift in Sources */,
+				C467510122C3F79400678FCC /* LoadingUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
