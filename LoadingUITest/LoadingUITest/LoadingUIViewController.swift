@@ -20,7 +20,10 @@ class LoadingUIViewController: LoadingViewController {
     }
     
     
-
+    @IBAction func stop(_ sender: Any) {
+        stopAnimation()
+    }
+    
     
 
     
